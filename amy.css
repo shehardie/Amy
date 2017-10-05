@@ -1,0 +1,44 @@
+
+ body {
+ 	background-color: beige; 
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px
+	margin: 35%;
+ }
+ h1 {
+ 	font-size: 60px
+ 	font-color: blue;
+ 	font-family: cursive;
+ 	text-align: center;
+ 	background-color: gray;
+}
+ p {
+	border-color: pink;
+}
+
+ h2 {
+ 	font-size: 30px
+ 	font-family: Helvetica;
+ 	font-color: blue;
+
+ }
+
+ .container {
+	display: inline-block;
+	background-color: blue;
+ }
+ .chinaP {
+	float: left;
+}
+ div.Rosenberg-DanubeP{
+	text-align: right;
+}
+ div.box {
+	float: left;
+}
+ div#shoe{
+	float: right;
+ }
+div#Castelmezzano-Italy{
+	float: left;
+}
