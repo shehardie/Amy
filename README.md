@@ -1,2 +1,0 @@
-# Amy-s-Travels
-# Amy
