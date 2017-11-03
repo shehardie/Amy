@@ -1,40 +1,81 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<link rel="stylesheet" type="text/css" href="amy.css"/>
-	<title>AMY'S TRAVEL BLOG</title>
-</head>
-<body style=background="vintage-concrete.png">
-	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-<hr>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" type="text/css" href="amy.css">
+<body>
 
-	<h1>AMY'S TRAVEL BLOG</h1><br>
-<hr>
-<div class="contaier">
-	<div class="china"><img src="https://cdn.pixabay.com/photo/2017/10/03/10/24/china-2811892_640.jpg" width="800px"></div>
-	<div class="chinaP"><p><h2>China</h2><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin venenatis, arcu non ullamcorper egestas, risus nunc pretium erat, vel tincidunt lacus eros vel est. Suspendisse varius turpis eu malesuada imperdiet. Curabitur luctus augue ac est convallis, ut semper tortor efficitur. Duis id mattis nibh. Curabitur auctor diam nulla, nec faucibus neque egestas non. Morbi nec lacus non lectus tincidunt semper. Nulla tempus ex ut fringilla sollicitudin. Curabitur cursus a turpis eget mollis. Nulla sit amet tempus tortor. In ultrices dui sit amet malesuada sollicitudin. Vivamus posuere gravida ornare. Proin ultrices iaculis pellentesque. Fusce quis arcu est.</p></div>
+<!-- Header -->
+<header class="w3-display-container w3-content w3-center" style="max-width:1500px">
+  <img class="w3-image" src="/w3images/photographer.jpg" alt="Me" width="1500" height="600">
+  <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-light-grey w3-center">
+    <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">AMY'S</h1>
+    <h5 class="w3-hide-large" style="white-space:nowrap">TRAVEL</h5>
+    <h3 class="w3-hide-medium w3-hide-small">ADVENTURE'S</h3>
+  </div>
+  
+  <!-- Navbar (placed at the bottom of the header image) -->
+  <div class="w3-bar w3-light-grey w3-round w3-display-bottommiddle w3-hide-small" style="bottom:-16px">
+    <a href="#" class="w3-bar-item w3-button">Home</a>
+    <a href="#portfolio" class="w3-bar-item w3-button">Portfolio</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+  </div>
+</header>
+
+<!-- Navbar on small screens -->
+<div class="w3-center w3-light-grey w3-padding-16 w3-hide-large w3-hide-medium">
+<div class="w3-bar w3-light-grey">
+  <a href="#" class="w3-bar-item w3-button">Home</a>
+  <a href="#portfolio" class="w3-bar-item w3-button">Portfolio</a>
+  <a href="#contact" class="w3-bar-item w3-button">Contact</a>
 </div>
-<div class="box">
-	<div class="Rosenberg-Dunube"><img src="https://cdn.pixabay.com/photo/2017/08/16/00/59/panorama-2646143_960_720.jpg" width="800px"></div>
-	<div class="Rosenberg-DunubeP">
-	<p><h2>Rosenberg,Dunube</h2><br>Suspendisse finibus nunc ipsum. In tincidunt nibh elementum odio mattis facilisis eleifend a velit. Donec iaculis consectetur odio, sit amet commodo ante dignissim et. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur vehicula sollicitudin nisl in ornare. Cras vel eros tortor. Mauris mauris lacus, luctus at eleifend sit amet, tincidunt in libero. Aliquam pellentesque dui ac luctus vulputate. Maecenas sed mi faucibus, gravida eros eleifend, mattis odio. Vestibulum a diam ut nulla pellentesque pulvinar a vel sapien. Donec quis tortor urna. Cras imperdiet libero nec ligula mattis molestie. Duis tincidunt diam sagittis risus viverra, a euismod dui tincidunt. Sed accumsan dui ac porta condimentum.</p></div>
 </div>
-<div id="shoe">
-<div id="greece"><img src="https://cdn.pixabay.com/photo/2014/08/12/00/01/oia-416135_960_720.jpg" width="600px"></div>
-<p><h2>Greece</h2><br>Praesent dictum consectetur mi, quis varius felis semper pellentesque. Aenean nec dapibus quam. Etiam turpis leo, feugiat sed condimentum at, congue id leo. Donec cursus mi ac laoreet lobortis. Nulla id molestie libero. Nam lacinia purus a augue ullamcorper eleifend. Curabitur faucibus dui non sem dictum hendrerit. Aliquam non malesuada odio, nec fringilla felis. Nulla facilisi. Nulla eu ante accumsan, viverra felis in, interdum mauris. In vestibulum tincidunt dolor vel posuere. In leo ipsum, vestibulum sed nisl egestas, condimentum ullamcorper orci. Aenean euismod est eu lorem imperdiet iaculis. Fusce ut purus efficitur quam feugiat euismod. Aenean dapibus nibh vitae dui euismod, quis tincidunt dui vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+<!-- Page content -->
+<div class="w3-content w3-padding-large w3-margin-top" id="portfolio">
+
+  <!-- Images (Portfolio) -->
+  <img src="images/coast-2723729_640 copy.jpg" alt="Ocean" class="w3-image" width="1000" height="500">
+  <p><h2>Greece</h2><br>Praesent dictum consectetur mi, quis varius felis semper pellentesque. Aenean nec dapibus quam. Etiam turpis leo, feugiat sed condimentum at, congue id leo. Donec cursus mi ac laoreet lobortis. Nulla id molestie libero. Nam lacinia purus a augue ullamcorper eleifend. Curabitur faucibus dui non sem dictum hendrerit. Aliquam non malesuada odio, nec fringilla felis. Nulla facilisi. Nulla eu ante accumsan, viverra felis in, interdum mauris. In vestibulum tincidunt dolor vel posuere. In leo ipsum, vestibulum sed nisl egestas, condimentum ullamcorper orci. Aenean euismod est eu lorem imperdiet iaculis. Fusce ut purus efficitur quam feugiat euismod. Aenean dapibus nibh vitae dui euismod, quis tincidunt dui vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+
+  <img src="images/castelmezzano-1979546_640.png" alt="Ocean II" class="w3-image w3-margin-top" width="1000" height="500">
+  <p><h2>Rosenberg,Dunube</h2><br>Suspendisse finibus nunc ipsum. In tincidunt nibh elementum odio mattis facilisis eleifend a velit. Donec iaculis consectetur odio, sit amet commodo ante dignissim et. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur vehicula sollicitudin nisl in ornare. Cras vel eros tortor. Mauris mauris lacus, luctus at eleifend sit amet, tincidunt in libero. Aliquam pellentesque dui ac luctus vulputate. Maecenas sed mi faucibus, gravida eros eleifend, mattis odio. Vestibulum a diam ut nulla pellentesque pulvinar a vel sapien. Donec quis tortor urna. Cras imperdiet libero nec ligula mattis molestie. Duis tincidunt diam sagittis risus viverra, a euismod dui tincidunt. Sed accumsan dui ac porta condimentum.</p>
+  <img src="images/china-2811892_640 copy.jpg" alt="Falls" class="w3-image w3-margin-top" width="1000" height="500">
+  <p><h2>China</h2><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin venenatis, arcu non ullamcorper egestas, risus nunc pretium erat, vel tincidunt lacus eros vel est. Suspendisse varius turpis eu malesuada imperdiet. Curabitur luctus augue ac est convallis, ut semper tortor efficitur. Duis id mattis nibh. Curabitur auctor diam nulla, nec faucibus neque egestas non. Morbi nec lacus non lectus tincidunt semper. Nulla tempus ex ut fringilla sollicitudin. Curabitur cursus a turpis eget mollis. Nulla sit amet tempus tortor. In ultrices dui sit amet malesuada sollicitudin. Vivamus posuere gravida ornare. Proin ultrices iaculis pellentesque. Fusce quis arcu est.</p>
+  <img src="images/elephant-2729415_640.png" alt="Skies" class="w3-image w3-margin-top" width="1000" height="500">
+  <p><h2>Africa</h2><br>Suspendisse finibus nunc ipsum. In tincidunt nibh elementum odio mattis facilisis eleifend a velit. Donec iaculis consectetur odio, sit amet commodo ante dignissim et. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur vehicula sollicitudin nisl in ornare. Cras vel eros tortor. Mauris mauris lacus, luctus at eleifend sit amet, tincidunt in libero. Aliquam pellentesque dui ac luctus vulputate. Maecenas sed mi faucibus, gravida eros eleifend, mattis odio. Vestibulum a diam ut nulla pellentesque pulvinar a vel sapien. Donec quis tortor urna. Cras imperdiet libero nec ligula mattis molestie. Duis tincidunt diam sagittis risus viverra, a euismod dui tincidunt. Sed accumsan dui ac porta condimentum.</p>
+  <img src="images/panorama-2646143_960_720 copy.jpg" alt="Mountains" class="w3-image w3-margin-top" width="1000" height="500">
+
+  <!-- Contact -->
+  <div class="w3-light-grey w3-padding-large w3-padding-32 w3-margin-top" id="contact">
+    <h3 class="w3-center">Contact</h3>
+    <hr>
+    <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus.</p>
+
+    <form action="/action_page.php" target="_blank">
+      <div class="w3-section">
+        <label>Name</label>
+        <input class="w3-input w3-border" type="text" required name="Name">
+      </div>
+      <div class="w3-section">
+        <label>Email</label>
+        <input class="w3-input w3-border" type="text" required name="Email">
+      </div>
+      <div class="w3-section">
+        <label>Message</label>
+        <input class="w3-input w3-border" required name="Message">
+      </div>
+      <button type="submit" class="w3-button w3-block w3-dark-grey">Send</button>
+    </form><br>
+    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+
+  </div>
+
+<!-- End page content -->
 </div>
-<div <a id="Castelmezzano-Italy" href=#"Castelmezzano-Italy"<img src="https://cdn.pixabay.com/photo/2017/01/14/13/59/castelmezzano-1979546_960_720.jpg" width="800px"></a></div>
-</body>
-<footer>
-	
-	
-</footer>
-	
-
-
-
-
-
 
 </body>
 </html>
+
